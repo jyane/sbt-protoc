@@ -1,4 +1,4 @@
-libraryDependencies += "com.google.protobuf" % "protobuf-java" % "3.3.1" % "protobuf"
+libraryDependencies += "com.google.protobuf" % "protobuf-java" % "3.3.0" % "protobuf"
 
 PB.targets in Compile := Seq(PB.gens.java -> (sourceManaged in Compile).value)
 
